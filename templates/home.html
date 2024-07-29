@@ -1,0 +1,45 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diabetes Prediction System</title>
+    <style type="text/css">
+        body {
+            background-color: #134B70;
+            margin: 0;
+            height: 100vh; /* Full viewport height */
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        div {
+            text-align: center; /* Center text within the div */
+        }
+        h1 {
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 20px; /* Space between the heading and the form */
+        }
+        input[type=submit] {
+            background-color: #4dc3ff;
+            border: none; /* Remove the border */
+            color: white;
+            padding: 16px 32px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Welcome to Diabetes Prediction System</h1>
+        <form action="predict">
+            <input type="submit" value="Let's get started">
+        </form>
+    </div>
+</body>
+</html>
